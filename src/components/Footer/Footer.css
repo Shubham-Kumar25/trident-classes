@@ -8,6 +8,10 @@ footer * {
   color: black;
 }
 
+.footer .container {
+  padding-bottom: 0rem;
+}
+
 footer .grid {
   text-align: right;
 }
@@ -71,7 +75,7 @@ footer .grid {
   bottom: 20px;
   right: 20px;
   cursor: pointer;
-  background-color: #48c989;
+  background-color: #b369f0;
   color: #fff;
   border-radius: 50%;
   padding: 10px;

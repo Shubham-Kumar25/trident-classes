@@ -40,3 +40,9 @@
 .contact-btn:hover {
   color: white;
 }
+
+@media (max-width: 767px) {
+  .section-contact--homepage .contact-image {
+    display: none;
+  }
+}

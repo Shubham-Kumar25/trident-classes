@@ -1,29 +1,45 @@
-// ContactUs.jsx
+// YouTubeChannel.jsx
 import React from "react";
 import { Link } from "react-router-dom";
 import "./YoutubeChannel.css";
-import contactUsImg from "../../assets/images/contact-us.webp";
+import youtubeLogoImg from "../../assets/images/youtube.png"; // Replace with the path to your YouTube channel logo
 
-const ContactUs = () => (
-  <div className="section-contact--homepage" data-aos="zoom-in-up" id="contact">
-    <div className="container grid grid-two--cols">
-      <div className="contact-content">
-        <h2 className="contact-title">Contact Trident Classes</h2>
-        <p>
-          Have any questions or need assistance with our math tutorials? Our
-          team is ready to assist you on your learning journey.
-        </p>
-        <div>
-          <Link to="/contactus" className="btn contact-btn">
-            Get in Touch
-          </Link>
+const YouTubeChannel = () => {
+  const channelUrl = "https://www.youtube.com/@tridentclasses";
+
+  return (
+    <div
+      className="section-youtube--homepage"
+      data-aos="zoom-in-up"
+      id="youtube"
+    >
+      <div className="container grid grid-two--cols">
+        <div className="contact-content">
+          <h2 className="contact-title">Discover Trident Classes on YouTube</h2>
+          <p>
+            Join us on our YouTube channel and dive into a wealth of math
+            tutorials, problem-solving sessions, exam tips, and live Q&A
+            sessions. Enhance your learning journey with Trident Classes.
+          </p>
+          <div>
+            <a
+              href={channelUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn contact-btn"
+            >
+              Visit Channel
+            </a>
+          </div>
+        </div>
+        <div className="contact-image">
+          <a href={channelUrl} target="_blank" rel="noopener noreferrer">
+            <img src={youtubeLogoImg} alt="Trident Classes YouTube Channel" />
+          </a>
         </div>
       </div>
-      <div className="contact-image">
-        <img src={contactUsImg} alt="Contact us illustration" />
-      </div>
     </div>
-  </div>
-);
+  );
+};
 
-export default ContactUs;
+export default YouTubeChannel;

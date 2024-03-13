@@ -5,16 +5,17 @@ import YoutubeChannel from "../../components/YoutubeChannel/YoutubeChannel";
 import ContactUs from "../../components/ContactUs/ContactUs";
 import Testimonials from "../../components/Testimonials/Testimonials";
 import WhyUs from "../../components/WhyUs/WhyUs";
+import ContactUsMain from "../../components/ContactUsMain/ContactUsMain";
 
 function LandingPage() {
   return (
     <div>
       <HeroSection />
       <AboutUs />
-
+      <YoutubeChannel />
       <WhyUs />
       <Testimonials />
-      <ContactUs />
+      <ContactUsMain />
     </div>
   );
 }

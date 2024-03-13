@@ -42,17 +42,17 @@ li {
 
 /* Theme */
 :root {
-  --main-color: #b369f0;
+  --main-color: #b972f3;
   --supporting-color: #d2b6e9;
   --font-color: #545150;
-  --bg-color: #c698ec;
+  --bg-color: #e6d8f1;
   --heading-color: #121421;
-  --hero-heading-color: #b369f0;
+  --hero-heading-color: #b05ef2;
   --white-color: #ffffff;
   --para-color: #545150;
   --bnt-hover-bg-color: #992ef1;
   --btn-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  --footer-bg-color: #ddc5f0;
+  --footer-bg-color: #e6d8f1;
 }
 
 /* Layout */
@@ -77,6 +77,7 @@ section {
     .section-services,
     .section-why--choose,
     .section-contact--homepage,
+    .section-youtube--homepage,
     .section-testimonial
   )
   .container:first-child {
@@ -192,6 +193,7 @@ figure {
       .section-blog,
       .section-services,
       .section-contact--homepage,
+      .section-youtube--homepage,
       .section-why--choose
     )
     .grid {
@@ -267,7 +269,8 @@ figure {
 
 @media (width <= 768px) {
   .grid-two--cols,
-  .grid-three--cols {
+  .grid-three--cols,
+  .grid-four--cols {
     grid-template-columns: 1fr;
   }
 
@@ -314,6 +317,10 @@ figure {
     text-align: center;
   }
 
+  .section-youtube--homepage .btn {
+    display: block;
+    text-align: center;
+  }
   .contact-title {
     font-size: 2.4rem;
   }
@@ -322,7 +329,10 @@ figure {
     padding: 6.4rem 0rem 2.4rem 0rem;
   }
 
+  :is(.section-youtube--homepage) .container:first-child {
+    padding: 6.4rem 0rem 2.4rem 0rem;
+  }
   .navbar-brand img {
-    width: 45%;
+    width: 20%;
   }
 }

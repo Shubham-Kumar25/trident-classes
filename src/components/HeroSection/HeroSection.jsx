@@ -22,7 +22,7 @@ const HeroSection = () => {
             </p>
             <div className="hero-btn">
               <Link
-                to="services"
+                to=""
                 smooth={true}
                 duration={200}
                 className="btn btn-white"

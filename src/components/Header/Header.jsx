@@ -37,7 +37,7 @@ const Header = () => {
                 <>
                   <li className="nav-item">
                     <Link to="about" smooth={true} duration={200}>
-                      About Us{" "}
+                      About Us
                     </Link>
                   </li>
                   <li className="nav-item">
@@ -47,8 +47,8 @@ const Header = () => {
                   </li>
 
                   <li className="nav-item">
-                    <Link to="contact" smooth={true} duration={200}>
-                      Contact Us
+                    <Link to="contact-us" smooth={true} duration={200}>
+                      Join Us
                     </Link>
                   </li>
                 </>

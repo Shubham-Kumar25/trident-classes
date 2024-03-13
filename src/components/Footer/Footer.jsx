@@ -1,9 +1,10 @@
+// Footer.jsx
 import React from "react";
 import { IoIosArrowUp } from "react-icons/io";
 import { FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "./Footer.css";
-import logo from "../../assets/logo/logo.png";
+import logo from "../../assets/logo/logo.png"; // Replace with the path to your Trident Classes logo
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -35,18 +36,18 @@ const Footer = () => {
             <Link className="footer-subheading" to="/">
               <img
                 src={logo}
-                alt="Assured Services Logo"
+                alt="Trident Classes Logo"
                 width="50%"
                 height="auto"
               />
             </Link>
           </div>
-          <p>Your Trusted Partner for Premium Services</p>
+          <p>Trident Classes: Where Math Meets Mastery</p>
           <div className="social-footer--icons">
             <Link
               to=""
               rel="noopener noreferrer"
-              title="Assured Services Twitter"
+              title="Trident Classes Twitter"
             >
               <i>
                 <FaTwitter size={25} />
@@ -55,7 +56,7 @@ const Footer = () => {
             <Link
               to=""
               rel="noopener noreferrer"
-              title="Assured Services LinkedIn"
+              title="Trident Classes LinkedIn"
             >
               <i>
                 <FaLinkedin size={25} />
@@ -64,7 +65,7 @@ const Footer = () => {
             <Link
               to=""
               rel="noopener noreferrer"
-              title="Assured Services Instagram"
+              title="Trident Classes Instagram"
             >
               <i>
                 <FaInstagram size={25} />
@@ -76,7 +77,9 @@ const Footer = () => {
         <div className="footer-2--div">
           <p className="footer-subheading">Address</p>
           <ul>
-            <li>Rohta Road Meerut</li>
+            <li>
+              Krishna Market, Fazalpur <br /> Rohta Road, Meerut <br /> 250002
+            </li>
           </ul>
         </div>
 
@@ -84,13 +87,6 @@ const Footer = () => {
           <p className="footer-subheading">Phone Number</p>
           <ul>
             <li>598794574</li>
-          </ul>
-        </div>
-
-        <div className="footer-4--div">
-          <p className="footer-subheading">Email</p>
-          <ul>
-            <li>janvi@gmail.com</li>
           </ul>
         </div>
       </div>
@@ -103,7 +99,7 @@ const Footer = () => {
       {/* Copyright */}
       <hr className="footer-horizontal-line" />
       <div className="footer-copyright">
-        <p>&#169; 2023 Assured Services. All rights reserved.</p>
+        <p>© 2024 Trident Classes. All rights reserved.</p>
       </div>
     </footer>
   );

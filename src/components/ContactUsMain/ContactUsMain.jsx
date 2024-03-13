@@ -13,7 +13,7 @@ const ContactUsMain = () => {
   };
 
   return (
-    <div className="section-contact">
+    <div className="section-contact" id="contact-us">
       <div className="container">
         <h2 className="section-common-heading">Contact Trident Classes</h2>
         <p className="section-common-subheading">
@@ -24,7 +24,7 @@ const ContactUsMain = () => {
 
       <div className="container grid grid-two--cols">
         <div className="contact-content">
-          <form onSubmit={handleSubmit}>
+          <form method="POST" action="https://getform.io/f/payngvrb">
             <div className="grid grid-two--cols mb-3">
               <div>
                 <label htmlFor="name">Your Name</label>
