@@ -1,0 +1,15 @@
+.not-found-container {
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.not-found-title {
+  font-size: 6rem;
+  color: #48c989;
+}
+
+.not-found-message {
+  font-size: 4rem;
+  color: #666;
+}

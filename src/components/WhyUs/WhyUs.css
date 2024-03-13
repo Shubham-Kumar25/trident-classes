@@ -1,0 +1,64 @@
+/* WhyUs.css */
+.section-why--choose .grid {
+  gap: 9.6rem;
+}
+
+.why-choose--div {
+  margin-top: 3.2rem;
+}
+
+.section-why--choose .text-align--right .why-choose--div {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: end;
+  text-align: right;
+}
+
+.common-text--highlight {
+  width: 6rem;
+  aspect-ratio: 1;
+  background-color: var(--supporting-color);
+  color: var(--main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.4rem;
+  font-weight: 700;
+  border-radius: 50%;
+}
+
+.choose-center--div img {
+  width: 90%;
+  height: auto;
+}
+
+.choose-center--div,
+figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.choose-center--div figure:before,
+.choose-center--div figure::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--main-color);
+  width: 25rem;
+  height: 25rem;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.choose-center--div figure::after {
+  width: 40rem;
+  height: 40rem;
+  background-color: transparent;
+  z-index: -2;
+  border: 0.5rem solid var(--supporting-color);
+}

@@ -1,0 +1,67 @@
+/* Testimonials.css */
+.testimonials-container {
+  width: 100%;
+  max-width: 900px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 1rem;
+  transition: all 700ms;
+  box-sizing: border-box;
+}
+
+.testimonials-card {
+  margin-top: 6rem;
+}
+
+.testimonials-navigation {
+  display: flex;
+  justify-content: space-between;
+  font-size: 50rem;
+  margin-top: 20px;
+  gap: 2;
+  color: #b369f0;
+  font-weight: bold;
+}
+
+.testimonial-arrow {
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.testimonials-navigation .testimonial-arrow {
+  background-color: #b369f0;
+  border: 1px solid #a046ea;
+  border-radius: 0.3rem;
+}
+
+.testimonial-arrow:hover {
+  transform: scale(1.05);
+}
+
+.testimonials-surprise {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonials-surprise-button {
+  background-color: #b369f0;
+  color: black;
+  cursor: pointer;
+  transition: all 0.2s;
+  padding: 1.2rem 3.2rem;
+  display: inline-block;
+  border-radius: 0.6rem;
+  border: 1px solid black;
+}
+
+.testimonials-surprise-button:hover {
+  background-color: #a046ea;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  color: white;
+}
