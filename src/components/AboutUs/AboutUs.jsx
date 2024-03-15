@@ -9,14 +9,10 @@ import "./AboutUs.css";
 const AboutUs = () => (
   <section id="about" className="section-about">
     <div className="container">
-      <h2 className="section-common-heading">
-        Hello, I'm Janvi, and this is Trident Classes!
-      </h2>
+      <h2 className="section-common-heading">Welcome to Trident Classes!</h2>
       <p className="section-common-subheading">
-        Trident Classes is your place for all things math. Whether you're a
-        school student (from 9th to 12th grade) or a college student (BCA, BBA,
-        B.COM, BSc etc.), we're here to make math understandable and fun. We'll
-        help you prepare for exams with effective strategies and study plans.
+        Your place for all things math. Making math understandable and fun for
+        school and college students.
       </p>
     </div>
 

@@ -10,24 +10,26 @@ const HeroSection = () => {
       <div className="section-hero">
         <div className="container grid grid-two--cols">
           <div className="section-hero--content">
-            <p className="hero-subheading">
-              TRIDENT CLASSES, YOUR MATH COMPANION
-            </p>
-            <h1 className="hero-heading">Welcome to Trident Classes!</h1>
+            <p className="hero-subheading">Where Math Meets Mastery</p>
+            <h1 className="hero-heading">
+              Hello, I'm Janvi, welcome to Trident Classes!
+            </h1>
             <p className="hero-para">
-              Your place for all things math. Making math understandable and fun
-              for school and college students. We are committed to delivering
-              excellence, trust, and reliability. Our team of experts ensures
-              that your needs are met with precision and professionalism.
+              Trident Classes is your place for all things math. Whether you're
+              a school student (from 9th to 12th grade) or a college student
+              (BCA, BBA, B.COM, BSc etc.), we're here to make math
+              understandable and fun. We'll help you prepare for exams with
+              effective strategies and study plans.
             </p>
+
             <div className="hero-btn">
               <Link
-                to=""
+                to="contact-us"
                 smooth={true}
                 duration={200}
                 className="btn btn-white"
               >
-                Join our math journey
+                Embark on your math journey with us
               </Link>
             </div>
           </div>
