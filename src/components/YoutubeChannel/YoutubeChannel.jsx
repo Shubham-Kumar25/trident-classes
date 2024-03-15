@@ -32,15 +32,16 @@ const YouTubeChannel = () => {
           </div>
         </div>
         <div className="contact-image">
-          <iframe
-            width="250"
-            height="445"
-            src={videoUrl}
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
+          <div className="video-container">
+            <iframe
+              className="responsive-iframe"
+              src={videoUrl}
+              title="What we offer on Trident Classes ! | @tridentclasses"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
       </div>
     </div>
