@@ -2,7 +2,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./YoutubeChannel.css";
-import youtubeLogoImg from "../../assets/images/youtube.png"; // Replace with the path to your YouTube channel logo
+import youtubeLogoImg from "../../assets/images/youtube.png";
 
 const YouTubeChannel = () => {
   const channelUrl = "https://www.youtube.com/@tridentclasses";
@@ -33,9 +33,7 @@ const YouTubeChannel = () => {
           </div>
         </div>
         <div className="contact-image">
-          <a href={channelUrl} target="_blank" rel="noopener noreferrer">
-            <img src={youtubeLogoImg} alt="Trident Classes YouTube Channel" />
-          </a>
+          <img src={youtubeLogoImg} alt="Trident Classes YouTube Channel" />
         </div>
       </div>
     </div>
