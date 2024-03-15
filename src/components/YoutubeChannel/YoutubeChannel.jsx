@@ -1,10 +1,10 @@
 // YouTubeChannel.jsx
 import React from "react";
 import "./YoutubeChannel.css";
-import youtubeLogoImg from "../../assets/images/youtube.png";
 
 const YouTubeChannel = () => {
   const channelUrl = "https://www.youtube.com/@tridentclasses";
+  const videoUrl = "https://www.youtube.com/embed/ujPofki89xc";
 
   return (
     <div
@@ -32,7 +32,15 @@ const YouTubeChannel = () => {
           </div>
         </div>
         <div className="contact-image">
-          <img src={youtubeLogoImg} alt="Trident Classes YouTube Channel" />
+          <iframe
+            width="250"
+            height="445"
+            src={videoUrl}
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
       </div>
     </div>
