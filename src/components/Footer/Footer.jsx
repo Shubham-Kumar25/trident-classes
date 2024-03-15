@@ -30,7 +30,7 @@ const Footer = () => {
         </svg>
       </div>
 
-      <div className="container grid grid-four--cols">
+      <div className="container grid grid-three--cols">
         <div className="footer-1--div">
           <div className="logo-brand">
             <Link className="footer-subheading" to="/">

@@ -255,9 +255,9 @@ figure {
     text-align: left;
   }
 
-  footer .grid-four--cols {
-    grid-template-columns: repeat(3, minmax(100px, 1fr));
-    text-align: left;
+  footer .grid-three--cols {
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+    text-align: right;
 
     & .footer-1--div {
       grid-row: 2 / 3;
