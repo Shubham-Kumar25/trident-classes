@@ -1,6 +1,6 @@
 footer {
   background-color: var(--footer-bg-color);
-  padding-top: 15rem;
+  padding-top: 12rem;
   position: relative;
 }
 
@@ -39,6 +39,17 @@ footer .grid {
   display: block;
   width: calc(124% + 1.3px);
   height: 30rem;
+}
+
+@media (width <= 998px) {
+  .custom-shape-divider-top svg {
+    height: 15rem;
+    outline: none;
+  }
+
+  .footer .container {
+    padding-top: 0rem;
+  }
 }
 
 .custom-shape-divider-top .shape-fill {

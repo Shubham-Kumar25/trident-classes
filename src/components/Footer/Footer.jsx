@@ -42,7 +42,7 @@ const Footer = () => {
               />
             </Link>
           </div>
-          <p>Trident Classes: Where Math Meets Mastery</p>
+          <p>Where Math Meets Mastery</p>
           <div className="social-footer--icons">
             <Link
               to=""
