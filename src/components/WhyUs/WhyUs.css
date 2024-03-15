@@ -55,6 +55,10 @@ figure {
   z-index: -1;
 }
 
+.section-why--choose .container {
+  padding-top: 4rem;
+}
+
 .choose-center--div figure::after {
   width: 40rem;
   height: 40rem;
