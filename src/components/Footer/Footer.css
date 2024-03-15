@@ -44,7 +44,6 @@ footer .grid {
 @media (width <= 998px) {
   .custom-shape-divider-top svg {
     height: 15rem;
-    outline: none;
   }
 
   .footer .container {

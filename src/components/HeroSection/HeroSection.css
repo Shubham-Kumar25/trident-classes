@@ -21,6 +21,12 @@ main {
   height: 12rem;
 }
 
+@media (width <= 998px) {
+  .custom-shape-divider-bottom-1696162272 svg {
+    height: 9rem;
+  }
+}
+
 .custom-shape-divider-bottom-1696162272 .shape-fill {
   fill: #ffffff;
 }
