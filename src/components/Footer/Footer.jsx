@@ -78,7 +78,8 @@ const Footer = () => {
           <p className="footer-subheading">Address</p>
           <ul>
             <li>
-              Krishna Market, Fazalpur <br /> Rohta Road, Meerut <br /> 250002
+              Krishna Market
+              <br /> Rohta Road, Meerut <br /> 250002
             </li>
           </ul>
         </div>
@@ -86,7 +87,7 @@ const Footer = () => {
         <div className="footer-3--div">
           <p className="footer-subheading">Phone Number</p>
           <ul>
-            <li>598794574</li>
+            <li>+917078072251</li>
           </ul>
         </div>
       </div>
