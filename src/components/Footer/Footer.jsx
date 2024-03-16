@@ -75,7 +75,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-2--div">
-          <p className="footer-subheading">Address</p>
+          <p className="footer-subheading">Visit Us</p>
           <ul>
             <li>
               Krishna Market
@@ -85,7 +85,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-3--div">
-          <p className="footer-subheading">Phone Number</p>
+          <p className="footer-subheading">Call Us</p>
           <ul>
             <li>+917078072251</li>
           </ul>
